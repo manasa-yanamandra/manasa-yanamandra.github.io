@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Manasa's Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    
+        <body>
+     
+        <header>
+            
+            <nav>
+                <ul>
+                    <li class="li-header-part"><a href= "../index.html">HOME</a></li>
+                    <li class="li-header-part"><a href= "../about-me.html">ABOUT ME</a></li>
+                    <li class="li-header-part"><a href= "../contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <h1>Difference between relative, absolute and fixed positioning</h1>
+        </header>
+        <section class="block-part">
+            <div>
+                
+                
+        <h3>Static positioning</h3>
+    
+        <p>Static position is the default position for all the html elements. Basically it means they are laid out in the same position in the web browser as they are positioned in the html documents i.e., they stay where they are.</p>
+        <center>
+        <div class="positioning-pink-block"></div>
+        <div class="positioning-purple-block-static"></div>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <img src="../images/static-positioning.png" alt="Static Postioning" width= "50%" height="5%">
+        </center>
+        </div>
+
+        <p>There are other element positioning such as relative, absolute and fixed.  </p>
+        
+        
+        <div>
+
+              
+        <h3>Relative positioning</h3>
+        <p> Relative positioning places an element in the webpage relative to normal static position of the html document. You can move the element a little bit, relative to its original place or the other nearby elements by using css tags like left, right, top, bottom or a combination of them by setting their position values. If one of the elements is applied with static positioning and the other with relative positioning, they can overlap. This is because the static position elements cannot be moved. Overlapping is not possible for static positioning, as the elements laid in the web browser are in the same position as they are in the html document.</p>
+        <p>As you can see from the image below, if you just use relative position without any css tags, the block remained in the same position as it is relative to the position of where it is supposed to be. You need to set the position and its value. Setting the top, right, bottom and left values will change the positioning of the block based on the values you have set to css tags.</p>
+        <center> 
+        <div class="positioning-pink-block"></div>
+        <div class="positioning-purple-block"></div>
+        <p></p>
+        <img src="../images/relative-positioning.png" alt="Relative Postioning" width="50%" height="10%">
+        </center>
+
+       
+        <h3>Relative positioning using css tag top </h3>
+        <p>As shown in the image below, applying css tag - "top" with value of 20px to the pink block moves it downward. This positions the pink block 20 pixels below its default top position. As a result, the pink block overlaps with the bottom purple block. This is the main disadvantage of relative positioning, if they are grouped nearby the positioning elements, they may overlap resulting in visual clutter.</p>
+        <center>
+        <div class="positioning-pink-block position-relative-top"></div>
+        <div class="positioning-purple-block"></div>
+        <p></p>
+        <img src="../images/relative-positioning-using-css-tag-top.png" alt="Relative Positioning using CSS tag top" width="60%" height="8%">
+    </center>
+   
+</div>
+<div>
+    
+    <h3>Relative positioning using css tag right</h3>
+    <p>When css tag - "right" with a value of 20px is applied, the pink block moves 20px to the right from the previous default position. </p>
+    <center>
+        <div class="positioning-pink-block position-relative-right"></div>
+        <div class="positioning-purple-block"></div>
+        <p></p>
+        <img src="../images/relative-positioning-using-css-tag-right.png" alt="Relative Postioning using CSS tag right" width="70%" height="8%">
+    </center>
+    </div>
+    <div>
+        
+    <h3>Relative positioning using css tag bottom</h3>
+    <p>When css tag - "bottom" with a value of 20px is applied, the pink block moves 20px to the bottom from the previous default position.</p>
+    
+    <center>
+        <div class="positioning-pink-block position-relative-bottom"></div>
+        <div class="positioning-purple-block"></div>
+        <p></p>
+        <img src="../images/relative-positioning-using-css-tag-bottom.png" alt="Relative Postioning using CSS tag bottom" width="70%" height="8%">
+    </center>
+    </div>
+    <div>
+        
+    <h3>Relative positioning using css tag left</h3>
+    <p>When css tag - "left" with a value of 20px is applied, the pink block moves 20px to the left from the previous default position. </p>
+    <center>
+        <div class="positioning-pink-block position-relative-left"></div>
+        <div class="positioning-purple-block"></div>
+        <p></p>
+        <img src="../images/relative-positioning-using-css-tag-left.png" alt="Relative Postioning using CSS tag left" width="70%" height="8%">
+    </center>
+    
+    </div>
+    <div>
+        
+        <h3>Absolute positioning</h3>
+        <p> There is not much movement for relative positioning, but absolute positioning is different. They can be moved anywhere on the website, as they are no longer in the flow and are not stuck in the same place. The element is positioned relative to the entire html document flow i.e., all the elements in the document.</p>
+        <center>
+        
+            <img src="../images/absolute-positioning.jpg" alt="Absolute Postioning" width="150" height="150">
+        
+        <!-- <div class="positioning-pink-block-absolute"></div>
+        <div class="positioning-purple-block"></div>   -->
+         <p></p>
+        <img src="../images/absolute positioning.png" alt="Absolute Postioning" width="70%" height="6%">
+    </center>
+    
+    </div>
+    <div>
+        
+        <h3>Fixed positioning</h3>
+        <p>Lastly, fixed positioning is they stay in one place. It is positioned relative to the view port of the website. If the element is in a fixed position, it wouldn't change even if you scroll the page i.e., the element stays in same position you fixed. Even when you change the viewport it still sticks to the place where we fixed it.</p>
+        <center>
+
+        <img src="../images/fixed-positioning.jpg" alt="Fixed Postioning" width="150" height="150">
+         <!-- <div class="positioning-pink-block positioning-pink-block-fixed"></div>  
+         <div class="positioning-purple-block"></div> -->
+         <p></p>
+    <img src="../images/fixed positioning.png" alt="Fixed Postioning" width="70%" height="5%">
+</center>
+
+    
+            </div>
+            
+        </section>
+        <section>
+            <div class="figures-flex-part">
+        
+                <nav>
+                    <ul>
+                        <li><a href= "../personal-skills.html">
+                            <img src="../images/personal-skills-400x400.jpg" alt="Image1" width="200" height="200">
+                        <a>Skills Blog</a></li>
+                        <li><a href= "../technical-skills.html">
+                            <img src="../images/technical-skills-400x400.jpg" alt="Image2" width="200" height="200">
+                        <a>Tech Blog</a></li>
+                        <li><a href= "../human-skills.html">
+                            <img src="../images/human-skills-400x400.jpg" alt="Image3" width="200" height="200">
+                        <a>Core Blog</a></li>
+                    </ul>
+                </nav>
+           
+        </div>
+                
+            
+        </section>
+        
+        <footer>footer</footer>
+            </body>
+</html>
