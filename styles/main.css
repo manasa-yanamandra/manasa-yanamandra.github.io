@@ -136,9 +136,29 @@
         .bold {
             font-weight: bold;
         }
-          /* Difference between relative, absolute and fixed css positioning. */
+         /* Difference between relative, absolute and fixed css positioning. */
 
+         /* table for Te Whare Tapa Wha*/
 
-                
+          table {
+            border-collapse: collapse;
+            border: 2px solid black;
+            row-gap: 10px; 
+            margin: 0 auto; 
+          }
+          
+          th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center; 
+            white-space: nowrap;
+            word-wrap: break-word; 
+          }
+          /* tr - table row, th - table headers, td - table data cells */
+          
+        /* table for Te Whare Tapa Wha*/
+        .bold-word {
+            font-weight: bold;
+          }       
        
         
