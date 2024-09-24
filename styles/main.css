@@ -76,6 +76,10 @@
             list-style: none;
             justify-content: center;  
         }
+        .ul {
+            list-style:disc;
+            display: block; 
+        }
         li {
             margin: auto;
         }
